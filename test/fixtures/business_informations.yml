@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_vet: false
+  is_vet_tech_nurse: false
+  is_rsrchr: false
+  best_desc_wrkplc: MyString
+  how_load_be_used: MyString
+  how_hear_abt_load: MyString
+  terms_condtn: false
+  user: one
+
+two:
+  is_vet: false
+  is_vet_tech_nurse: false
+  is_rsrchr: false
+  best_desc_wrkplc: MyString
+  how_load_be_used: MyString
+  how_hear_abt_load: MyString
+  terms_condtn: false
+  user: two

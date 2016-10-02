@@ -1,0 +1,154 @@
+<div id="main">
+     <h2 class="main-heading">Thank you for your interest in the questionnaire.</h2>
+
+     <p class="main-text "></p>
+
+     <div class="questions">
+
+     <div class="space-20"></div>
+        <center></center>
+        <div class="form-group">
+        <div class="form-inline">
+      
+      <form accept-charset="UTF-8" action="/business_informations" method="post">
+        <input name="utf8" type="hidden" value="&#x2713;">
+        <input name="authenticity_token" type="hidden" value="">
+      
+      <label class="rounded-text pixel-17 brownish-grey">Are you a veterinarian?</label>
+      <div><span >
+         <label class="mdl-radio mdl-js-radio radio-inline">
+            
+            <input class="mdl-radio__button" id="vet" name="business_information[is_vet]" onclick="changeValue(this,'pageid:j_id1:RadioButtonValueyes');" type="radio" value="true" />
+            <span class="myraid-text pixel-16">Yes</span>
+         </label></span><span id="pageid:j_id1:j_id63">
+             <label class="mdl-radio mdl-js-radio radio-inline">
+                <input class="mdl-radio__button" id="vetno" name="business_information[is_vet]" onclick="changeValue(this,'pageid:j_id1:RadioButtonValueyes');" type="radio" value="false" />
+                <span class="myraid-text pixel-16">No</span>
+             </label></span>
+      </div>
+    </div>
+</div>
+<div class="space-20"></div>
+
+ <div class="form-group">
+    <div class="form-inline">
+      <label class="rounded-text pixel-17 brownish-grey">Are you a veterinary technician/nurse?</label>
+      <div><span id="pageid:j_id1:j_id68">
+          <label class="mdl-radio mdl-js-radio radio-inline">
+            <input class="mdl-radio__button" id="vetyes" name="business_information[is_vet_tech_nurse]" onclick="changeValue(this,'pageid:j_id1:RadioButtonValueyestech');" type="radio" value="true" />
+            <span class="myraid-text pixel-16">Yes</span>
+         </label></span><span id="pageid:j_id1:j_id72">
+         <label class="mdl-radio mdl-js-radio radio-inline">
+            <input class="mdl-radio__button" id="vet" name="business_information[is_vet_tech_nurse]" onclick="changeValue(this,'pageid:j_id1:RadioButtonValueyestech');" type="radio" value="false" />
+            <span class="myraid-text pixel-16">No</span>
+         </label></span>
+
+         
+      </div>
+    </div>
+</div>
+
+<div class="space-20"></div>
+ <div class="form-group">
+    <div class="form-inline">
+      <label class="rounded-text pixel-17 brownish-grey">Are you a researcher?</label>
+      <div><span id="pageid:j_id1:j_id77">
+              <label class="mdl-radio mdl-js-radio radio-inline">
+                    <input class="mdl-radio__button" id="vetresearch" name="business_information[is_rsrchr]" onclick="changeValue(this,'pageid:j_id1:RadioButtonValueyesres');" type="radio" value="true" />
+                    <span class="myraid-text pixel-16">Yes</span>
+              </label></span><span id="pageid:j_id1:j_id81">
+             <label class="mdl-radio mdl-js-radio radio-inline">
+                <input class="mdl-radio__button" id="vetresearc" name="business_information[is_rsrchr]" onclick="changeValue(this,'pageid:j_id1:RadioButtonValueyesres');" type="radio" value="false" />
+                <span class="myraid-text pixel-16">No</span>
+             </label></span>
+      </div>
+    </div>
+</div>
+<div class="space-20"></div>
+<div class="form-group"><label for="pageid:j_id1:id_ccount" class="rounded-text pixel-17 brownish-grey">
+Which of the following best describes your workplace?</label>
+          <div class="form-inline"><select  class="form-control-nonmandatory" id="pageid:j_id1:j_id88" name="business_information[best_desc_wrkplc]"><option value="">--None--</option><option value="Academia">Academia</option>
+<option value="Animal Health Industry">Animal Health Industry</option>
+<option value="Clinical Veterinary Practice">Clinical Veterinary Practice</option>
+<option value="Human Health Industry">Human Health Industry</option>
+<option value="Referral Center">Referral Center</option>
+<option value="Specialist Clinic">Specialist Clinic</option>
+<option value="Other">Other</option>
+</select>
+          
+          </div>
+        </div>
+
+        
+<div class="space-20"></div>
+<div class="form-group"><label for="pageid:j_id1:id_ccount" class="rounded-text pixel-20 brownish-grey">
+How will it be used?</label>
+          <div class="form-inline"><select  class="form-control-nonmandatory" id="pageid:j_id1:j_id93" multiple="multiple" name="business_information[how_load_be_used]" size="5" style="display:none;"><option value="Animal Health Clinical Trial">Animal Health Clinical Trial</option>
+<option value="Clinical Patient Management">Clinical Patient Management</option>
+<option value="Other">Other</option>
+</select><table class='multiSelectPicklistTable' border='0' cellspacing='0' cellpadding='0'><tr>
+<td><td colspan='100%' height='5'></td></tr>
+<tr class='multiSelectPicklistRow'><td>
+<select  class="form-control-nonmandatory" multiple="multiple" ondblclick="MultiSelectPicklist.handleMSPSelect('pageid:j_id1:j_id93'); " id="pageid:j_id1:j_id93_unselected" title="How will the LOAD be used - Available" size="5"><optgroup style="text-decoration:none;" label="Available"><option value="0">Animal Health Clinical Trial</option>
+<option value="1">Clinical Patient Management</option>
+<option value="2">Other</option>
+</optgroup></select></td><td class='multiSelectPicklistCell'>
+<a href="javascript:MultiSelectPicklist.handleMSPSelect%28%27pageid%3Aj_id1%3Aj_id93%27%29%3B"><img src="/assets/arrow2_picklist_right.gif" alt="Add" width="17" height="17" align="texttop" class="form-control-nonmandatory" border="0" id="pageid:j_id1:j_id93_right_arrow" style="cursor:pointer;" title="Add" /></a><br><br>
+<a href="javascript:MultiSelectPicklist.handleMSPUnSelect%28%27pageid%3Aj_id1%3Aj_id93%27%29%3B"><img src="/assets/arrow2_picklist_left.gif" alt="Remove" width="17" height="17" align="texttop" class="form-control-nonmandatory" border="0" id="pageid:j_id1:j_id93_left_arrow" style="cursor:pointer;" title="Remove" /></a></td><td>
+<select  class="form-control-nonmandatory" multiple="multiple" ondblclick="MultiSelectPicklist.handleMSPUnSelect('pageid:j_id1:j_id93'); " id="pageid:j_id1:j_id93_selected" title="How will the LOAD be used - Chosen" size="5"><optgroup style="text-decoration:none;" label="Chosen"></optgroup></select></td></tr></table>
+
+          </div>
+        </div>
+        
+<div class="space-20"></div>
+<div class="form-group"><label for="pageid:j_id1:id_ccount" class="rounded-text pixel-17 brownish-grey">
+How did you hear about it?</label>
+          <div class="form-inline"><select  class="form-control-nonmandatory" id="pageid:j_id1:j_id97" name="business_information[how_hear_abt_load]"><option value="">--None--</option><option value="Continued education information">Continued education information</option>
+<option value="Internet search">Internet search</option>
+<option value="Journal article">Journal article</option>
+<option value="Word of mouth">Word of mouth</option>
+<option value="Other">Other</option>
+</select>
+        
+          </div>
+        </div>
+        
+</div>
+<div class="space-50"></div>
+<div>
+
+     
+<p class="pixel-17 brownish-grey rounded-text heavy"></p>
+
+<p class="main-text">
+
+</p>
+
+
+</div>
+      
+     <div class="space-20"></div>
+
+    <div class="center">
+         <label class="mdl-radio mdl-js-radio radio-inline inline"><span id="pageid:j_id1:j_id99"><input type="checkbox" name="business_information[terms_condtn]" /></span>
+            <span class="arial-text pixel-18 ">I agree to the above terms and conditions.</span>
+         </label>
+         
+
+    </div>
+    <!-- <input type="hidden" name="business_information[user_id]" value="session[current_user_id]">  -->
+    <!-- <input type="hidden" name="business_information[user_id]" value="user[id]"> -->
+</div>
+                
+
+   </div>
+   
+   <div class="form-group footbtn">
+          <div class="col-md-offset-3 col-md-3 dis col-sm-offset-3"><input type="submit" name="pageid:j_id1:j_id102" value="Cancel" class="btn-lg btn-sec btn quecanpos" />
+
+          </div>
+          <div class="col-md-3 sub"><input id="pageid:j_id1:submitterms" type="submit" name="" value="Submit" class="btn-lg btn-sub btn quesubpos " />
+          </form>
+<br /><br />
+            
+          </div>

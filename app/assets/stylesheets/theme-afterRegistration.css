@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@font-face { font-family: VAGRounded-Black; src: url(/assets/VAG-Rounded-Std-Light_47298.ttf);}*/
+@font-face { font-family: MyriadPro-Regular; src: url(/assets/MYRIADPRO-REGULAR.OTF);}
+/*@font-face { font-family: MyriadPro-Bold; src: url(/assets/MYRIADPRO-BOLD.OTF);}*/
+@font-face { font-family: MyriadPro-Semibold; src: url(/assets/MYRIADPRO-SEMIBOLD.OTF);}
+/*@font-face { font-family: ArialMT; src: url(/assets/ufonts.com_arialmt.ttf);}*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-nav>li>a { padding: 7px 62px;}
+;}
+.panel-primary { border: none; box-shadow: none;}
+.form-control { border: #00ADD0 1px solid; border-radius: 0px; box-shadow: none; background: #fff; min-height: 40px;}
+.form-control-nonmandatory { border: #00ADD0 1px solid; border-radius: 0px; box-shadow: none; background: #fff; min-height: 40px;}
+.btn-sub { background: #de3192;}
+.form-horizontal .control-label { font-size: 17px; color: #171717; font-weight: normal;}
+.btn1 { border-radius: 0px; width: 170px; color: #fff; height: 50px; font-size: 18px; border: none;}
+.footbtn { margin-top: 25px ;}
+/*.logo-img1 { width: 131px; height: 65px;}
+.logo-img2 { width: 185px; height: 44px ;}
+*/
+@media (max-width: 991px) {
+.footbtn { max-width: 700px ;}
+.dis { width: 40%; float: left ;}
+;}
+.head { margin: 25px 0 ;}
+.blue-color { background-color: #00add0;}
+.heavy { font-weight: bold;}
+.main-heading { font-size: 35px; font-family: VAGRounded-Black; color: #00add2; font-weight: bold;}
+.rounded-text { font-family: VAGRounded-Black;}
+.pixel-17 { font-size: 17px;}
+.pixel-18 { font-size: 18px;}
+.myraid-text { font-family: MyriadPro-Regular;}
+.arial-text { font-family: ArialMT;}
+.pixel-16 { font-size: 16px;}
+.main-text { font-size: 14px; 
+    
+line-height: 19px;}
+.main-subheading { font-size: 17px; color: #666666; font-weight: bold;}
+.text-format { font-size: 16px; color: #00add2;}
+.blue { color: #00add0;}
+.border-select { border: 1px solid #00add2;}
+.grey { background-color: #f9f9f9;}
+.header-height { font-size: 14px;}
+.text-height { font-size: 11.6px;}
+.brownish-grey { color: #666666; font-weight: bold;}
+.padding { margin-left: 2px;}
+
+
+body{font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important;}
+.space-50 { height: 50px;}
+.space-20 { height: 20px;}
+.inline { display: inline-block;}
+.center { text-align: center;}
+.white { background-color: #fff;}
+.border { padding-right: 2px;}
+.font-twelve { font-size: 12px;}
+.semi-white { background-color: #f9f9f9;}
+.questions { margin-top: 20px;}
+option { font-family: MyriadPro-Regular; font-size: 15px;}
+.border-top { border-top: 1px solid #979797;}
+.reqfield { border-left: 2px #de3192 solid;}
+.multiSelectPicklistCell a { padding: 5px; border: none ;}
+.multiSelectPicklistCell a img.nonmandatory { width: 30px; border: none ;}
