@@ -2,7 +2,7 @@ class BusinessInformationsController < ApplicationController
   def create
     params[:business_information][:user_id] = session[:current_user_id]
     @business_information = BusinessInformation.new(business_information_params)
-    if @business_information.save!
+    if @business_information.save
       redirect_to '/homes/Registration_PDF'
     else
       redirect_to '/homes/Registration'

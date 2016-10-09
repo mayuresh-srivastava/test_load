@@ -3,19 +3,25 @@
 one:
   language: MyString
   is_prdct_branded: false
-  int_vst: false
-  flp_vst: false
-  both: false
+  non_brand: false
+  first_brand: false
+  second_brand: false
+  third_brand: false
+  visit_name: MyString
+  brand_name: MyString
   is_downloaded: false
-  download_date: 2016-10-02
-  user: one
+  download_date: 2016-10-08
+  user_id: 
 
 two:
   language: MyString
   is_prdct_branded: false
-  int_vst: false
-  flp_vst: false
-  both: false
+  non_brand: false
+  first_brand: false
+  second_brand: false
+  third_brand: false
+  visit_name: MyString
+  brand_name: MyString
   is_downloaded: false
-  download_date: 2016-10-02
-  user: two
+  download_date: 2016-10-08
+  user_id: 
